@@ -1,5 +1,5 @@
 Package: yodel
-Title: Bayesian Model Averaging
+Title: A General Bayesian Model Averaging Helper
 Version: 1.0.0
 Authors@R: c(
     person(given = "Richard",
@@ -8,9 +8,10 @@ Authors@R: c(
            email = "richard.payne@lilly.com"),
     person(family = "Eli Lilly and Company",
            role = "cph"))
-Description: The baYesian mODEL averaging (yodel) package provides helper
-  functions to do Bayesian model averaging using separately fit MCMC
-  samples.
+Description: Provides helper functions to perform Bayesian model averaging
+    using MCMC samples from separate models. Calculates weights and obtains draws
+    from the model-averaged posterior for quantities of interest specified by
+    the user.
 License: MIT + file LICENSE
 Imports:
   dplyr (>= 1.0),
