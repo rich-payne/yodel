@@ -5,7 +5,7 @@ Authors@R: c(
     person(given = "Richard",
            family = "Payne",
            role = c("aut", "cre"),
-           email = "richard.payne@lilly.com"),
+           email = "paynestatistics@gmail.com"),
     person(family = "Eli Lilly and Company",
            role = "cph"))
 Description: Provides helper functions to perform Bayesian model averaging
