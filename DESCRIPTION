@@ -1,0 +1,24 @@
+Package: yodel
+Title: Bayesian Model Averaging
+Version: 1.0.0
+Authors@R: c(
+    person(given = "Richard",
+           family = "Payne",
+           role = c("aut", "cre"),
+           email = "richard.payne@lilly.com"),
+    person(family = "Eli Lilly and Company",
+           role = "cph"))
+Description: The baYesian mODEL averaging (yodel) package provides helper
+  functions to do Bayesian model averaging using separately fit MCMC
+  samples.
+License: MIT + file LICENSE
+Imports:
+  dplyr (>= 1.0),
+  purrr (>= 0.3),
+  rlang (>= 0.4)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat
