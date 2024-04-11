@@ -13,6 +13,7 @@ Description: Provides helper functions to perform Bayesian model averaging
     from the model-averaged posterior for quantities of interest specified by
     the user.
 License: MIT + file LICENSE
+URL: https://github.com/rich-payne/yodel
 Imports:
   dplyr (>= 1.0),
   purrr (>= 0.3),
