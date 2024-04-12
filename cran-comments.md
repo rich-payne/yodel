@@ -1,3 +1,10 @@
+## Resubmission
+
+In this resubmission, I have:
+
+* Updated the "Description" section in the DESCRIPTION file to expand acronyms
+  and add a relevant reference.
+
 ## R CMD check results
 
 0 errors | 0 warnings | 1 note

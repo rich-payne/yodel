@@ -9,9 +9,11 @@ Authors@R: c(
     person(family = "Eli Lilly and Company",
            role = "cph"))
 Description: Provides helper functions to perform Bayesian model averaging
-    using MCMC samples from separate models. Calculates weights and obtains draws
-    from the model-averaged posterior for quantities of interest specified by
-    the user.
+    using Markov chain Monte Carlo samples from separate models. Calculates
+    weights and obtains draws from the model-averaged posterior for quantities
+    of interest specified by the user. Weight calculations can be done using
+    marginal likelihoods or log-predictive likelihoods as in Ando, T., & Tsay,
+    R. (2010) <doi:10.1016/j.ijforecast.2009.08.001>.
 License: MIT + file LICENSE
 URL: https://github.com/rich-payne/yodel
 Imports:
